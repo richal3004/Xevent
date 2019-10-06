@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>user_page</title>
+
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript"></script>
+            
+      <!--Import materialize.css-->
+     
+                  
+       <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<style type="text/css">
+.brand-logo{
+	font-family: sans-serif;
+	margin-right: 1%;
+}
+.navtitle{
+	font-size: 150%;
+}
+.fm{
+	margin-left: 2%;
+}
+.l{
+	margin-left: 5%;
+}
+</style>
+<body>
+
+
+  <div class="fixed_navbar" id="myfixed_navbar">
+		    	<nav>
+			    	<div class="nav-wrapper blue-grey darken-4">
+			        	
+			        	<ul class="left hide-on-med-and-down">
+			        		<li><a class="navtitle" href="#About_us">Add Events</a></li>
+			        		<li><a class="navtitle" href="#update">Updates</a></li>
+			        	</ul>
+			        	<a href="index.html" class="right brand-logo red-text titlename sh">X-Event</a>
+			    	</div>
+		    	</nav>
+		    	</div>
+
+		    <form action="organizer_profile.php" method="POST">
+		    	<div class="fm">
+		      <div class="input-field">
+		        <i class="material-icons prefix">person</i>
+		        <input type="text" id="name" name="event_name" >
+		         <label for="pass">Event Name</label>
+		      </div>
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="email" name="event_city">
+		        <label for="pass">Event City</label>
+		      </div>
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="username" name="event_date">
+		        <label for="pass">Event Date</label>
+		      </div>
+		     
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="password" name="organizer">
+		        <label for="pass">Organizer Name</label>
+		      </div>
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="password" name="ticket_price">
+		        <label for="pass">Ticket Price</label>
+		      </div>
+		      <br>
+
+			  <div class="input-field col s6">
+	          <i class="material-icons prefix">mode_edit</i>
+	          <input type="text" name="discri">
+	          <label for="icon_prefix2">Enter Discription Of Event</label>
+	        </div>
+	        <br>
+
+			 <div class="file-field input-field">
+		      <div class="btn">
+		        <span>File</span>
+		        <input type="file">
+		      </div>
+		      <label for="pass" class="l">Upload Poster Here</label>
+		      <div class="file-path-wrapper">
+		        <input class="file-path validate" type="text">
+		      </div>
+		    </div>
+		      
+		      <input type="submit" value="Submit" class="btn btn-large" href=""> 
+		  </div>
+		    </form>
+
+  <script type="text/javascript">
+  	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+   //tabs slider
+        $(document).ready(function(){
+  		$('.tabs').tabs();
+  		});
+  		//
+  		//slider start
+      	$(document).ready(function(){
+  		  $('.slider').slider();}
+  		  );
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  </script>
+
+</body>
+</html>

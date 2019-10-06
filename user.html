@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>user_page</title>
+
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript"></script>
+            
+      <!--Import materialize.css-->
+     
+                  
+       <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+       <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<style type="text/css">
+.brand-logo{
+	font-family: sans-serif;
+	margin-right: 1%;
+}
+.navtitle{
+	font-size: 150%;
+}
+.fm{
+	margin-left: 2%;
+}
+</style>
+<body>
+
+
+  <div class="fixed_navbar" id="myfixed_navbar">
+		    	<nav>
+			    	<div class="nav-wrapper blue-grey darken-4">
+			        	
+			        	<ul class="left hide-on-med-and-down">
+			        		<li><a class="navtitle" href="#About_us">Profile</a></li>
+			        		<li><a class="navtitle" href="user_event.html">Events</a></li>
+			        		<li><a class="navtitle" href="#update">Updates</a></li>
+			        	</ul>
+			        	<a href="index.html" class="right brand-logo red-text titlename sh">X-Event</a>
+			    	</div>
+		    	</nav>
+		    	</div>
+
+		    <form action="home.php" method="POST">
+		    	<div class="fm">
+		      <div class="input-field">
+		        <i class="material-icons prefix">person</i>
+		        <input type="text" name="name" >
+		         <label for="pass">First Name  Last Name</label>
+		      </div>
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="email" name="email">
+		        <label for="pass">Email id</label>
+		      </div>
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="text" id="username" name="username">
+		        <label for="pass">Set username</label>
+		      </div>
+		     
+		      <br>
+
+		      <div class="input-field">
+		        <i class="material-icons prefix">lock</i>
+		        <input type="password" id="password" name="password">
+		        <label for="pass">Set Password</label>
+		      </div>
+		     
+		      <br>
+		      
+		      <input type="submit" value="Submit" class="btn btn-large" href=""> 
+		  </div>
+		    </form>
+
+  <script type="text/javascript">
+  	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+   //tabs slider
+        $(document).ready(function(){
+  		$('.tabs').tabs();
+  		});
+  		//
+  		//slider start
+      	$(document).ready(function(){
+  		  $('.slider').slider();}
+  		  );
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+img{
+	size: 713px 350px;
+}
+.events{
+	align-content: center;
+}
+.fixed_navbar{
+	z-index: 1000;
+}
+	
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navtitle{
+	color:#66FCF1;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+}
+.titlename{
+	background-color: #1F2833;
+	color: #66FCF1;
+	font-size: 35px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+.subtitle{
+	background-color: #1F2833;
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+
+}
+.nav-wrapper {
+	background-color: #1F2833;
+}
+
+.robosub_logo{
+	margin-top:150px;
+	height:220px;
+	width:220px;
+
+}
+
+.ldce_logo{
+	
+	height:150px;
+	width:150px;
+
+}
+.home_poster{
+	
+	background-color:#1F2833;
+	width:100%;
+}
+.about_robosub{
+	background-color: #1F2833;
+}
+.about_robosub_text{
+	color:#66FCF1;
+}
+
+
+
+.title{
+	margin-top: 20px;
+	font-family: 'Bree Serif', serif;
+	color: #62666B;
+	font-size: 35px;
+	text-align: center;
+}
+.about_robosub_title{
+	color: white;
+}
+
+.image{
+	text-align: center !important;
+	height:400px;
+	width:70%;
+}
+
+.project_icon{
+
+	height:200px;
+	width:200px;
+}
+
+.sponsor_tag{
+	text-align: center;
+}
+
+.form_btn{
+	text-align: center;
+}
+
+.clubname{
+	color: red !important;
+}
+.page-footer{
+	background-color: #1F2833;
+
+}
